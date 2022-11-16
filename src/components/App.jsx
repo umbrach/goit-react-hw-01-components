@@ -9,7 +9,13 @@ import transactions from '../json/transactions.json';
 
 export default function App() {
   return (
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}
+    >
       <Profile
         username={user.username}
         tag={user.tag}
