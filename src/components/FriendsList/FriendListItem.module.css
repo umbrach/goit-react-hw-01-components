@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px #cacaca;
+}
+
+.online {
+  border: 8px solid green;
+  border-radius: 50%;
+}
+
+.offline {
+  border: 8px solid red;
+  border-radius: 50%;
+}
+
+.avatar {
+  padding: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,24 @@
+.transaction {
+    width: 100%;
+    max-width: 100vh;
+    box-shadow: 0 0 4px #cacaca;
+    border-radius: 8px;
+}
+
+.row {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(198, 197, 197);
+
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(237, 237, 237);
+}
+
+.column {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(235, 133, 133);
+}
